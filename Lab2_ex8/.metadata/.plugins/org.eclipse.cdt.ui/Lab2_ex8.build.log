@@ -1,0 +1,22 @@
+20:06:29 **** Incremental Build of configuration Debug for project Lab2_ex8 ****
+make -j4 all 
+arm-none-eabi-gcc -o "Lab2_ex8.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\destiny\Microprocessor_Lab\lab2\Lab2_ex8\Lab2_ex8\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab2_ex8.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab2_ex8.elf
+ 
+arm-none-eabi-size   Lab2_ex8.elf 
+arm-none-eabi-objdump -h -S  Lab2_ex8.elf  > "Lab2_ex8.list"
+arm-none-eabi-objcopy  -O ihex  Lab2_ex8.elf  "Lab2_ex8.hex"
+arm-none-eabi-objcopy  -O binary  Lab2_ex8.elf  "Lab2_ex8.bin"
+   text	   data	    bss	    dec	    hex	filename
+   8480	     40	   1672	  10192	   27d0	Lab2_ex8.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab2_ex8.bin
+Finished building: Lab2_ex8.list
+ 
+Finished building: Lab2_ex8.hex
+ 
+ 
+
+20:06:30 Build Finished. 0 errors, 0 warnings. (took 1s.85ms)
+
