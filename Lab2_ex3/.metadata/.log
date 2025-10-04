@@ -1,0 +1,18 @@
+!SESSION 2025-10-03 07:56:28.131 -----------------------------------------------
+eclipse.buildId=Version 1.7.0
+java.version=11.0.10
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-10-03 07:56:50.743
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-10-03 07:56:50.890
+!MESSAGE Log4j initialized with config file D:\destiny\Microprocessor_Lab\lab2\Lab2_ex3\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-10-03 07:57:01.072
+!MESSAGE Started RMI Server, listening on port 41340
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-10-03 08:03:23.333
+!MESSAGE Indexed 'Lab2_ex3' (19 sources, 80 headers) in 6.1 sec: 4,883 declarations; 29,122 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0059%)
